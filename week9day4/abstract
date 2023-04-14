@@ -1,0 +1,39 @@
+Arogya Hospital Information Management System
+
+By :
+Saad, Rachana, Vinayak
+
+Abstract 
+
+The Arogya Hospital Information Management System is an essential tool used in hospitals to efficiently manage patient information and care. This system is designed to store and manage patient data, such as name, age, gender, Aadhar Card number, contact number, city, address, date of admission, guardian's name, guardian's address, and guardian's contact number. The Arogya Hospital Information Management System streamlines patient care by making it easier for healthcare providers to access, review, and update patient information quickly and accurately. Each patient is assigned a unique ID upon admission. The system validates user-entered data, such as the number of digits in the age, Aadhar Card number, and contact number.
+
+Key Features
+The Arogya Hospital Information Management System has the following key features:
+
+1. Add Patient Details
+The system allows the addition of new patient details, which include their personal and medical information. The system should validate user-entered data such as the number of digits in age, Aadhar card number, and contact number. It should also assign a unique id to each patient admitted.
+
+2. Real-Time Patient List
+The system can display a list of patients in real-time, with proper error messages displayed when the patient list is empty.
+
+3. Patient Details by Unique ID or Name
+Given a unique id or name, the system should be able to provide all details of the patient.
+
+4. Patient List by City, State or Age Group
+The system should provide a list of patients belonging to a particular city, state or age group. This feature should also handle NullPointerException if user-entered values are empty.
+
+5. Mark Patient as Recovered
+When a patient recovers, the system should mark them as recovered.
+
+6. Delete Patient Information
+The system should be able to delete patient information when requested to do so while handling NullPointerException if the patient id is not present in the list.
+
+Technology Used
+The Arogya Hospital Information Management System will be developed using Java programming language, efficient data structures, collections, and OOP concepts. The user interface will be developed using JavaFX and the system will be connected to a MySQL database to store patient information.
+
+Why the System is Required:
+
+The Arogya Hospital Information Management System is required to improve the quality of patient care by providing easy access to patient information, improving communication, and reducing administrative burden on medical staff. The system can also improve accuracy in medical records, which is essential for proper diagnosis and treatment. Overall, the system can improve the efficiency and effectiveness of the hospital's operations, leading to better patient outcomes.
+
+
+
